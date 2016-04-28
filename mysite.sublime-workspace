@@ -1,0 +1,675 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"act",
+				"activations_titles"
+			],
+			[
+				"save",
+				"save_figure"
+			],
+			[
+				"full",
+				"fullname"
+			],
+			[
+				"fitn",
+				"fittnesses"
+			],
+			[
+				"Gl",
+				"GlobalParams"
+			],
+			[
+				"Globa",
+				"GlobalMin"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "blog/models.py",
+			"settings":
+			{
+				"buffer_size": 477,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nDjango Manage Commands\n----------------------\n\n  # DjangoCommands for ST3\n  \n  ###The best tool for your django development.\n  \n  This tool is a Sublime Text wrapper around django `manage.py` commands.\n  \n  With it you can run django commands like `Django: Run Server`, `Django: Sync Database`, `Django: Migrate` from Command Palette.\n  \n  You can also run `Django: Custom Command` to access other manage.py commands. Try `Django: Help` and you will get full list of commands provided by each application.\n  \n  Or you can choose to use `Django: Other Command` to list and run all commands available to `manage.py`\n  \n  Currently tested on Windows 7/8, Mac OS, Ubuntu.\n  \n  Everything tested and running!\n  \n  * __Virtualenv support__\n  * __Django boilerplate__\n  * __Install your dependencies__\n  * __Install new pip packages__\n  * __Open and search in django documentation from the editor__\n  * __Create new projects from ST__\n  * __Start new apps__\n  * __Run custom servers__\n  * __PostgreSQL specific features snippets__\n  * __And More!__\n  \n  ## Installation\n  \n  ### Package Control\n  \n  The easiest way to install this is with [Package Control](http://wbond.net/sublime\\_packages/package\\_control).\n  \n   * If you just went and installed Package Control, you probably need to restart Sublime Text before doing this next bit.\n   * Bring up the Command Palette (Command+Shift+p on OS X, Control+Shift+p on Linux/Windows).\n   * Select \"Package Control: Install Package\" (it'll take a few seconds)\n   * Select `Django Manage Commands` when the list appears.\n  \n  Package Control will automatically keep plugin up to date with the latest version.\n  \n  ## Use\n  \n  ### Commands\n  Currently supports following commands:\n  \n  #### Django:\n   * `Django: New Project`\n   * `Django: New App`\n   * `Django: Run Server`\n   * `Django: Run Custom Server`\n   * `Django: Boilerplate`\n   * `Django: Sync Database`\n   * `Django: Test`\n   * `Django: Test All`\n   * `Django: Shell`\n   * `Django: DB Shell`\n   * `Django: Custom Command`\n   * `Django: Other Command`\n   * `Django: Check`\n   * `Django: Help`\n   * `Django: Open Docs`\n   * `Django: Search in Docs`\n   * `Django: Use Default Interpreter`\n   * `Django: Make Migration`\n   * `Django: SQLMigration` \n   * `Django: Migrate Database`\n   * `Django: Initial Schema Migration`\n   * `Django: Schema Migration`\n   * `Django: List Migrations`\n   * `Django: Click`\n  \n  #### Virtual Environment:\n   * `Django: Set Virtual Environment`\n   * `Django: Terminal Here`\n   * `Django: Pip Freeze`\n   * `Django: Pip Freeze To File`\n   * `Django: Pip Install Packages`\n   * `Django: Pip Install Requirements`\n   * `Django: Set Project Interpreter`\n  \n  ### Settings\n  \n   * `python_bin`: path to python interpreter\n   * `python_version` : default python interpreter version\n   * `python_virtualenv_paths`: list of paths where virtualenvs are located (ex:`~/.virtualenvs/`)*\\*\n   * `server_host`: host for the runserver command\n   * `server_port`: port for the server to listen\n   * `linux_terminal`: Only Linux setting for command line emulator\\*\\*\n   * `project_override`: (Boolean) Per project setting \"python_interpreter\" overrides \"python_bin\"\n   \n   * `server_custom_command`: Per project setting to specify a custom server to run (ex: {\"command\": \"gunicorn\", \"args\":[\"--workers=3\"]})\\*\\*\\* \n   \n  \\*It's important to set your envs directories\n  \n  \\*The folders in this list should be the parent folder of the virtualenv folder, not the virtualenv folder itself\n  \n  \\*\\*Check that your 'linux\\_terminal' setting uses an underscore \"\\_\"\n  \n  \\*\\*\\*use any script you want\n  \n  ### Please report any issue, bug, enhacement or comment [here](https://github.com/vladimirnani/DjangoCommands/issues) \n  ### We'll be glad to read and work on all of them\n",
+			"settings":
+			{
+				"buffer_size": 3831,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 52.0,
+		"last_filter": "djangomake",
+		"selected_items":
+		[
+			[
+				"djangomake",
+				"Django: Make Migration"
+			],
+			[
+				"django mi",
+				"Django: Make Migration"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: re",
+				"Package Control: Remove Repository"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"django",
+				"Django: Help"
+			],
+			[
+				"makemi",
+				"Django: Make Migration"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/fcf/Google Drive/Projetos/python/django/djangogirls",
+		"/home/fcf/Google Drive/Projetos/python/django/djangogirls/blog"
+	],
+	"file_history":
+	[
+		"/home/fcf/.config/sublime-text-3/Packages/Django Manage Commands/DjangoCommands.sublime-settings",
+		"/home/fcf/.config/sublime-text-3/Packages/DjangoCommands/Default.sublime-keymap",
+		"/home/fcf/.config/sublime-text-3/Packages/Anaconda/Anaconda.sublime-settings",
+		"/home/fcf/Google Drive/Projetos/python/django/djangogirls/mysite.sublime-project",
+		"/home/fcf/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/fcf/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/home/fcf/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/fcf/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/fcf/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/fcf/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/fcf/.config/sublime-text-3/Packages/User/DjangoCommands.sublime-settings",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu0/C-128x3x3_M-2x2-1x1_D-128_baseline.json",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/material/Romero/MaterialRedes-Kurose6aEd/Tarefas extras de programacao - Phython (ingles)/PythonSolutions/ProxyServer/ProxyServer.py",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/material/Romero/MaterialRedes-Kurose6aEd/Tarefas extras de programacao - Phython (ingles)/PythonSolutions/Traceroute/Traceroute.py",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/Aulas/python_sockets/servidor_udp.py",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/Aulas/python_sockets/cliente_tcp.py",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/Aulas/python_sockets/cliente_udp.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_com_summary/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_com_summary_completo/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/files/16-01-11_21-41-56/s01/s01.log",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/libs/keras/keras/backend/theano_backend.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_sgd/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/libs/keras/keras/backend/meu_theano_backend.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/libs/keras/keras/backend/tensorflow_backend.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu0/C-128x5x5_M-2x2-1x1_D-128.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu0/C-512x3x3_M-2x2-1x1_D-512.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/C-256x3x3_C-128x3x3_M-2x2-1x1_D-128.json",
+		"/tmp/model_architecture.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsall/summary_tratado.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/test_backprop_cnn.py",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj12_series8_data.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/15-12-26_10-07-40/C-512x3x3_M-2x2-1x1_D-512_adadelta.json",
+		"/home/fcf/ProgramasRFB/IRPF2016/aplicacao/dados/09495194482/09495194482.xml",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-14_11-47-23/C-256x3x3_C-128x3x3_M-2x2-1x1_D-512_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-18_00-35-36/C-256x3x3_BN_C-128x3x3_BN_M-2x2-1x1_D-512_BN_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-02-12_09-02-43/L-512_D-512.json",
+		"/home/fcf/Downloads/WorldCat_632849973.ris",
+		"/home/fcf/Downloads/Cybernetic_Predicting_Devices.bibtex",
+		"/home/fcf/Downloads/fw..t.v.s.t.e.ve.j.o.b.s.Sk.e..t.ch.UP.r20.1.4/Como instalar.txt",
+		"/home/fcf/Downloads/SketchUp Pro 2016 v16.0.19911 + Crack [FU]/ReadMe.txt",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/plot_activation_functions.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsall/16-01-14_11-47-23/C-256x3x3_C-128x3x3_M-2x2-1x1_D-512_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsrecurrentss_LSTM_GRU/summary.csv",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj1_series1_events.csv",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj1_series2_events.csv",
+		"/home/fcf/Downloads/Principles_of_neurodynamics.bibtex",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/CNN_LSTM.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/vgg.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultscspldaresults_lda/resultscspldasummary.csv",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj1_series6_events.csv",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj1_series8_events.csv",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj2_series1_events.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/keras_bci.py",
+		"/home/fcf/TestePush/plugins/com.phonegap.plugins.PushPlugin/Example/www/index.html",
+		"/srv/http/index.html",
+		"/home/fcf/Google Drive/POLI/tcc/datasets/kaggle-inria-bci/train/subj1_series7_events.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/dissertacao/ppgec.bbl",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/dissertacao/ppgec.bib",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_16-01-14_11-47-23_certo/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/C-256x3x3_C-128x3x3_M-2x2-1x1_D-128_sgd_lr1e-6.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_16-01-08_14-58-42/summary.csv",
+		"/home/fcf/Google Drive/IFPE/disciplinas/redes/Aulas/Exercicios/Exercicios_Enderecamento_IP",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_16-01-17_10-39-18_corrigido/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_definitivo/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_definitivo/16-01-17_10-39-18/C-256x3x3_C-128x3x3_M-2x2-1x1_D-512_sgd_decay-1e-6.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsall/statistical_tests/shapiro_wilk.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsall/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu0/C-256x3x3_BN_C-128x3x3_BN_M-2x2-1x1_D-512_BN_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/s02.log",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/diagrams/example2.txt",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/diagrams/example.txt",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/result_bn/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_16-01-14_10-44-20/summary.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/C-512x3x3_M-2x2-1x1_D-128.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/C-128x3x3_M-2x2-1x1_D-512.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-08_22-04-32/C-256x3x3_C-128x3x3_M-2x2-1x1_D-128_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-08_14-58-52/C-128x5x5_M-2x2-1x1_D-128_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-17_10-39-18/C-256x3x3_C-128x3x3_M-2x2-1x1_D-512_sgd_decay-1e-6.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-17_10-39-18/C-256x3x3_C-128x3x3_M-2x2-1x1_D-1024_sgd.json",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/image/resultsall/16-01-21_23-00-55/C-256x3x3_DP_C-128x3x3_DP_M-2x2-1x1_D-512_DP.json",
+		"/home/fcf/Downloads/IRPF2016Linux-x86_64v1.2.bin",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/resultsall/16-01-18_00-35-36/C-256x3x3_BN_C-128x3x3_BN_M-2x2-1x1_D-512_BN_sgd.json",
+		"/home/fcf/Downloads/citations.bib",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/results_analyzer.py",
+		"/home/fcf/Google Drive/POLI/mestrado/dissertacao/ppgec.blg",
+		"/tmp/stds.csv",
+		"/tmp/means.csv",
+		"/tmp/maxs.csv",
+		"/tmp/results/summary.csv",
+		"/tmp/matrix.csv",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/gpu1/C-256x3x3_DP_C-128x3x3_DP_M-2x2-1x1_D-512_DP.json",
+		"/home/fcf/Downloads/15-12-26_10-08-31/C-256x3x3_C-128x3x3_M-2x2-1x1_D-128.json/s01/s01.log",
+		"/tmp/Referencias.bib",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/results/results_with_architectures/summary.csv",
+		"/tmp/keras/keras/backend/theano_backend.py",
+		"/tmp/python_sockets/cliente_udp.py",
+		"/tmp/python_sockets/servidor_udp.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/CNN.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/CNN_baseline.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/CNN_CNN.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/CNN_GRU.json",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/CNN_LSTM.json",
+		"/tmp/quadrado.py",
+		"/tmp/2015-12-21 02:05:04.642253",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/model1.json",
+		"/tmp/2015-12-21 02:07:19.210066",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/files/DISSERTACAO_TEMPLATE/ppgec.run.xml",
+		"/media/dados/data/GTSRB/results/2406/correlations2406.csv",
+		"/media/dados/data/GTSRB/results/1307_supercomp/iterations.csv",
+		"/media/dados/data/GTSRB/results/1407_supercomp_15000/iterations.csv",
+		"/home/fcf/.cache/.fr-jqb3a0/GT-final_test.csv",
+		"/media/dados/data/GTSRB/Final_Test/Images/GT-final_test.csv",
+		"/media/dados/data/GTSRB/results/using_tests.txt",
+		"/run/media/fcf/HBCD 15.2/HBCD.txt",
+		"/run/media/fcf/HBCD 15.2/autorun.inf",
+		"/home/fcf/.cache/.fr-dPBDwI/PSO/FuncaoELM.h",
+		"/home/fcf/Downloads/release_notes_R18.txt",
+		"/media/dados/Downloads/OpenELEC-RPi2.arm-5.95.4/README.md",
+		"/media/dados/Downloads/OpenELEC-RPi2.arm-5.95.4/RELEASE",
+		"/home/fcf/.emulationstation/es_systems.cfg",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/files/s01_s1_15-10-29_22-43-22.json",
+		"/home/fcf/.nvimrc",
+		"/home/fcf/.config/nvim/init.vim",
+		"/home/fcf/.config/nvim/rplugin/python3/deoplete.py",
+		"/home/fcf/.config/nvim/rplugin/python3/deoplete/deoplete.py",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/files/analise_CUDNN",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/s06model_architecture.yaml",
+		"/home/fcf/Google Drive/POLI/mestrado/projetos/python/mestrado/bci_deep/models_configs/s06model_architecture.json"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			"",
+			"<open files>"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"auto_complete",
+			"alt+/",
+			"commit_completion",
+			"auto_complete",
+			"enter",
+			"auto_complete",
+			"python",
+			"interpreter",
+			"s =",
+			"s ",
+			"cross_va",
+			",1,1",
+			",1,0,0,1,0",
+			",1,0,0,1,0,0",
+			"1,0,0,1,0,0",
+			"1,0,0,1,0,0\\n",
+			"1,0,0,1,0,0",
+			"0,0,0,0,0,1",
+			"        ",
+			"          ",
+			" ",
+			"    ",
+			"  ",
+			".   ",
+			".  ",
+			".   ",
+			"	",
+			" ",
+			"adam",
+			"ortho",
+			"bachn",
+			"save",
+			"sns.",
+			"\\n",
+			",",
+			"\\n",
+			",",
+			"\\n",
+			",",
+			"\\n",
+			"open",
+			"java",
+			"java\n",
+			"	",
+			",1",
+			"(?<=st_title=\").*?(?=\" st)",
+			"(?s)(?<=linksrc=docsum_title\">).+?(?=<)",
+			"(?s)(?<=linksrc=docsum_title\">.).+?(?=\\.)",
+			"(?s)(?<=title=\").+?(?=\" onclick)",
+			"(?s)(?<=title=\").+?(?<=\" onclick)",
+			"(?s)(?<=-- title).+?(?<=<!-- author -->)",
+			"-- title",
+			"(?<=<a)(.|\\n).*(?<=\" title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=<!-- title -->)",
+			"(?<=<!-- title -->)(.|\\n)*",
+			"<!-- title -->",
+			"(?<=<a)(.|\\n).*(?<=\" title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=\" title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<= title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=\" title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=title=\\\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=title=\")[\\w\\W]*?\"(?= onclick=\"_gaq.push\\(\\['_trackEvent','Show detail','Article',this.href)",
+			"(?<=title=\")[\\w\\W]*?\"(?= onclick=\"_gaq.)",
+			"(?<=title=\")[\\w\\W]*?\"(?= on)",
+			"(?<=title=\")S",
+			"(?<title=\")S",
+			"circle",
+			"grad",
+			" gradientangle=\"\\d+\"",
+			"\\]",
+			"\\[",
+			"\\]",
+			"\\}",
+			"}",
+			"\\[\\.+\\](.|\\n)*?(?=\\[\\d+/\\d+/\\d+)",
+			"\\[\\.+\\](.|\\n)**(?=\\d+/\\d+)",
+			"Epoch \\d\\/\\d*[.\\s|\\n|\\d|\\/|\\[|\\]|\\-|\\w|\\:|\\b|\\=|\\>]*(?=Epoch \\d{5})",
+			"Epoch \\d\\/\\d*[.\\s|\\n|\\d|\\/|\\[|\\]|\\-|\\w|\\:|\\b|\\=|\\>]*(?=Epoch)",
+			"Epoch \\d",
+			"(?s)(\\[\\.+\\]).*(?=Epoch)",
+			"(?s)(\\[\\.+\\])(.?)+?(?=\\[\\={30}\\])",
+			"(?s)(\\[\\.+\\])(\\s|-|\\w|:|\\.|\\|/|\\n|\\[|\\]|=|>)*(?=\\[\\={30}\\])",
+			"(?s)(\\[\\.+\\])(\\s|-|\\w|:|\\.|\\|/|\\n|\\[|\\]|=|>)*\\[\\={30}\\]",
+			"(?s)(\\[\\.+\\])+(\\s|-|\\w|:|\\.|\\|/|\\n)*",
+			"(?s)(\\[\\.+\\])+(\\s|-|\\w|:|\\.|\\|/)*",
+			"(?s)[(\\[\\.+\\])+(\\s|-|\\w|:|\\.|\\|/)*]+.*Simul",
+			"valid",
+			"(?s)(\\[\\.+\\])+.*(\\[\\={30}\\])+",
+			"(?s)(\\[\\.*\\])*.*(\\[\\={30}\\])",
+			"(\\[\\.*\\])*.*(\\[\\={30}\\])*\\[\\d",
+			"\\[\\.*\\][\\s?\\d?\\-?\\w?:\\.\\W]*^\\[\\d",
+			"\\[[\\.\\d\\D\\[\\]\\s]*\\](.)*",
+			"\\b",
+			"\\[\\.+\\][\\s]+\\[\\=+\\]",
+			"\\[\\.*\\][\\s\\S]*\\[\\=*]\\n",
+			"\\[\\.*\\].*",
+			"\\[\\.*\\].*\\[\\=*\\]",
+			"epoch",
+			"\\n\\n",
+			"Epoch",
+			"epoch",
+			"	\\n",
+			"flatten",
+			"n-D",
+			"turn a",
+			"batch_fl",
+			"clip",
+			"^\\d*.*\\d",
+			"^d",
+			"^%d.*",
+			"\"cache_enabled\":.*\\n",
+			"None",
+			"'",
+			"AUC: mean=\\d+.\\d+",
+			"0\\.917",
+			"AUC: mean=\\d+.\\d+",
+			"AUC: mean=\\d+\\.\\d*.*",
+			"access",
+			">",
+			"^\\d.*\\n",
+			"^\\n",
+			"\\d.*",
+			": 256",
+			"classes=.*",
+			"^AUC: mean=.*",
+			"true",
+			"false",
+			"False"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			" ",
+			" ,",
+			" ",
+			",",
+			"\",\"",
+			",",
+			"\",\"",
+			",",
+			"\",\"",
+			",",
+			"\",",
+			",",
+			"",
+			"	",
+			"",
+			"\"",
+			"",
+			"\"",
+			"d\\n",
+			"\\d\\n",
+			"",
+			"Sydney",
+			"cusparseSetStream",
+			",0\\n",
+			",",
+			"",
+			",",
+			";",
+			"",
+			",",
+			"1000\\n",
+			"500\\n",
+			"200\\n",
+			"200\\),\\n",
+			",",
+			";",
+			",",
+			"",
+			"\\n",
+			"",
+			"42_5x5_correlatoins_entropy_15000;",
+			"42_5x5_correlatoins_entropy_15000",
+			"",
+			"\\n",
+			"42_5x5_correlations_entropy_10000;",
+			"42_5x5_correlations_entropy_10000",
+			"",
+			".",
+			"42_3x3",
+			"42_5x5",
+			"126_5x5",
+			"42_5x5",
+			"42_3x3",
+			"",
+			";",
+			"",
+			";",
+			"",
+			"]",
+			"\\n",
+			"without_wavelets",
+			"",
+			"ELM'random",
+			"",
+			"\\n",
+			"",
+			",\"",
+			"",
+			",\"",
+			",",
+			";",
+			"\\n",
+			"",
+			"^[\\s]*[\\w]*",
+			"\\w",
+			"",
+			"TRAIN_INPUTS",
+			"TRAIN_OUTPUTS",
+			"train_outputs",
+			"/home/fcf/GoogleDrive/POLI/Pesquisas/Bases/mnist/",
+			"",
+			"\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "blog/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								477,
+								477
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3831,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3831,
+								3831
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"default_dir": "/home/fcf/Google Drive/Projetos/python/django/djangogirls",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 464.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.astyle_error_message":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mysite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 233.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
